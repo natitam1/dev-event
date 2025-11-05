@@ -1,3 +1,5 @@
+import ExploreBtn from "@/components/ExploreBtn";
+
 const page = () => {
   return (
     <section>
@@ -5,6 +7,10 @@ const page = () => {
         The Hub for Every Dev <br />
         Event You Can't Miss
       </h1>
+      <p className="text-center mt-5">
+        Hackathons, Meetups, and Conferences, All in one place
+      </p>
+      <ExploreBtn />
     </section>
   );
 };
